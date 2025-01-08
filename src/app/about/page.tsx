@@ -15,7 +15,7 @@ export default async function AboutPage() {
   })) as unknown as Author[];
 
   return (
-    <section className="container mx-auto py-16 px-4">
+    <section className="container mx-auto py-16 px-4 bg-white">
       <h1 className="text-4xl font-bold mb-12 text-center">
         About Our Authors
       </h1>
